@@ -1,3 +1,7 @@
+/**
+ * @author Yuanfang
+ * abstract class
+ */
 package gui.panel;
 
 import javax.swing.JPanel;

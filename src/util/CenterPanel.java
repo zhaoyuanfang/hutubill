@@ -51,7 +51,7 @@ public class CenterPanel extends JPanel {
         add(p);
         
         if (p instanceof WorkingPanel)
-            ((WorkingPanel) p).updataData();
+            ((WorkingPanel) p).updateData();
         this.updateUI();
     }
       

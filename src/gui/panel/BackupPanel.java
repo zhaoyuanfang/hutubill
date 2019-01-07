@@ -1,7 +1,3 @@
-/**
- * @author Yuanfang
- * backup the data?
- */
 package gui.panel;
  
 import javax.swing.JButton;
@@ -12,13 +8,12 @@ import util.ColorUtil;
 import util.GUIUtil;
  
 public class BackupPanel extends WorkingPanel {
-	//what is the fucking with this
     static{
         GUIUtil.useLNF();
     }
              
     public static BackupPanel instance = new BackupPanel();
-    JButton bBackup =new JButton("¬±¬∏¬∑√ù");
+    JButton bBackup =new JButton("±∏∑›");
  
     public BackupPanel() {
         GUIUtil.setColor(ColorUtil.blueColor, bBackup);

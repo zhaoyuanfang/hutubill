@@ -11,12 +11,10 @@ import util.CenterPanel;
 import util.GUIUtil;
  
 public class MainPanel extends JPanel {
-    //what is the fucking this???
-	static {
+    static {
         GUIUtil.useLNF();
     }
-
-	//hungry instantiation
+ 
     public static MainPanel instance = new MainPanel();
     public JToolBar tb = new JToolBar();
     public JButton bSpend = new JButton();
@@ -55,7 +53,7 @@ public class MainPanel extends JPanel {
         add(workingPanel, BorderLayout.CENTER);
         
         addListener();
-        }
+    }
     	private void addListener() {
         ToolBarListener listener = new ToolBarListener();
          
@@ -66,7 +64,7 @@ public class MainPanel extends JPanel {
         bConfig.addActionListener(listener);
         bBackup.addActionListener(listener);
         bRecover.addActionListener(listener);
-        
+         
     }
  
     public static void main(String[] args) {
